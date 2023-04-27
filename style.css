@@ -42,6 +42,7 @@ footer{
     flex-wrap: wrap;
     position:sticky;
     padding-top: 3vh;
+    margin-bottom: 0%;
 }
 ul{
     display: flex;
