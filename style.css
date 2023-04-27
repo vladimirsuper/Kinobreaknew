@@ -21,6 +21,8 @@ header{
     max-height: 14vh;
     justify-content: space-around;
     width: 99vw;
+    background-color: red;
+    
 }
 body{
     width: 10vw;
