@@ -15,6 +15,7 @@ header{
 .headerr{
     background-color: rgb(222, 217, 217);
     margin-top: 46vh;
+    margin-bottom: 0%;
     display: flex;
     justify-content: center;
     max-height: 14vh;
@@ -168,8 +169,8 @@ margin: 0;
     width: 9.5vw;
     height: 25vh;
     margin: 0.16vw;
-    margin-bottom: 25vh;
-    margin-top: 5vh;
+    margin-bottom: 25%;
+    margin-top: 5%;
     left:0;
 }
 .nexut{
