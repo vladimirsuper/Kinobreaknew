@@ -1,6 +1,6 @@
 header{
     background-color: #0b2c81;
-    background-image: url('images/Картинка-Стражи-Галактики-подбрка018.jp');
+
     padding-bottom: 0%;
     background-size:cover;
     /* width: 99.3vw;  */
@@ -17,8 +17,10 @@ header{
     background-repeat:no-repeat;
     z-index: 0;
     margin: 0%;
-    margin-top: -12vh;
+    margin-top: -80px;
     margin-bottom: -1vh;
+    min-height: 300px;
+    
 }
 .headerr{
     background-color: rgb(222, 217, 217);
@@ -122,7 +124,7 @@ margin: 0;
     color: black;
 }
 .okno{
-    max-width: 10vw;
+    min-width: 10vw;
     background-color: rgb(222, 216, 214);
     margin: 0%;
     padding: 0%;
@@ -131,10 +133,10 @@ margin: 0;
     position: relative;
     justify-content: center;
     z-index: 999;
-    
     max-height: 30vh;
     opacity: 0.85;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 .super-puper{
     flex: auto;
@@ -346,16 +348,19 @@ main{
     }
 }
 @media (max-width: 710px) {
-    
+    .menu__item1{
+        margin: 0%;
+    }
+    .moSearch{
+        min-width: 40vw;
+    }
 }
 /* планшеты вертикально */
-@media (max-width: 800px) {
+@media (max-width: 950px) {
     /* .big_menu{
         display: none;
     } */
-    .menu__item1{
-        margin-left: 0.25vw;
-    }
+    
     .subscribe1{
         padding-right: 0%;
     }
@@ -376,6 +381,7 @@ main{
     .moSearch{
         padding: 0%;
         margin: 0%;
+        width: 20vw;
     }
     .vi{
         display: none;
@@ -575,7 +581,7 @@ hr:after {
     margin-top: 2%;
     height: 30px;
     margin-top: 30px;
-    width: 10vw;
+    min-width: 15vw;
 }
 
 .pfooter{
