@@ -25,8 +25,11 @@ header{
 .headerr{
     background-color: rgb(222, 217, 217);
     margin-top: 0vh;
+    min-height: 18vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-self: center;
     max-height: 14vh;
     justify-content: space-around;
     width: 99vw;
@@ -68,13 +71,13 @@ ul{
 }
 .themeButton{
     width: 90px;
-    height: 45px;
+    height: 35px;
     font-size: 12px;
-    margin-top: 4vh;
+    margin-top: 0vh;
+    padding: 0%;
 }
 .text1{
     margin-bottom: 0%;
-    
     width: 170px;
     height: 210px;
     position: absolute;
@@ -120,11 +123,13 @@ margin: 0;
     text-decoration: none;
 }
 .a-in-okno{
+    margin-left: 1vw;
     text-decoration: none;
     color: black;
 }
 .okno{
-    min-width: 10vw;
+    max-width: 100px;
+    min-width: 100px;
     background-color: rgb(222, 216, 214);
     margin: 0%;
     padding: 0%;
@@ -132,6 +137,7 @@ margin: 0;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
+    
     z-index: 999;
     max-height: 30vh;
     opacity: 0.85;
@@ -140,6 +146,8 @@ margin: 0;
 }
 .super-puper{
     flex: auto;
+    align-items: center;
+    align-self: center;
     display: flex;
 }
 .sortirovka{
@@ -155,6 +163,9 @@ margin: 0;
 
 .big_menu{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .leftzig, .rightzig{
@@ -181,7 +192,7 @@ margin: 0;
     left:0;
 }
 .nexut{
-    width: 23vw;
+    width: 36vw;
     display: flex;
     position: static;
     padding: 0%;
@@ -190,24 +201,23 @@ margin: 0;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    width: 26vw;
-    
-    
+    width: 46vw;
 }
 .next, .nex{
     text-decoration: none;
     opacity: 0.95;
 }
 .next{
-    margin: 1vw;
+    margin-top: 1vw;
+    margin-right: 6vw;
     padding: 1vw;
     
 }
 .arrowrev , .arrowext{
     z-index: 999;
     margin: 0%;
-    max-height: 30px;
-    margin-top: 39px;
+    max-height: 5vh;
+    margin-top: 2vw;
     background-color: #aea8a8;
     color: white;
     text-decoration: none;
@@ -355,6 +365,36 @@ main{
         min-width: 40vw;
     }
 }
+@media (max-width: 582px) {
+    .text1{
+        margin-bottom: 0%;
+        width: 20vw;
+        height: 24vh;
+        margin: 0.5vw;
+        font-size: small;
+    }
+    .cities{
+        gap: 15px;
+        margin-left: -45px;
+    }
+    main{
+        align-items: center;
+    }
+    .city{
+        width: 20vw;
+        height: 24vh;
+        margin: 0.5vw;
+    }
+    .img1{
+        width: 20vw;
+        height: 24vh;
+        margin: 0.5vw;
+        
+    }
+    .speciaal{
+        padding-top: 102.5%;
+    }
+}
 /* планшеты вертикально */
 @media (max-width: 950px) {
     /* .big_menu{
@@ -363,6 +403,11 @@ main{
     
     .subscribe1{
         padding-right: 0%;
+        
+    }
+    .adv1{
+        width: 9.5vw;
+        height: 15vh;
     }
     .headerr{
         padding-left: 0%;
@@ -383,9 +428,9 @@ main{
         margin: 0%;
         width: 20vw;
     }
-    .vi{
+     .vi{
         display: none;
-    }
+    } 
     .hamburger-menu{
         display: inline;
     }
@@ -578,9 +623,9 @@ hr:after {
 
 .moSearch{
     /* margin-left: 6vw; */
-    margin-top: 2%;
+    margin-top: 0vh;
     height: 30px;
-    margin-top: 30px;
+    margin-top: 0px;
     min-width: 15vw;
 }
 
